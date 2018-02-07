@@ -1,0 +1,36 @@
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/golden-girl.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.obey img {
+  width: 80px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.card-img-top {
+  height: auto;
+}
+
+.badge-pill {
+  min-width: 69px;
+  height: 28px;
+}
+@media screen and (min-width: 360px) {
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .card-img-top {
+    height: 201px;
+  }
+  .jumbotron h1 {
+    font-size: 80px;
+  }
+}
